@@ -1,16 +1,39 @@
-# quran
+# QuranApp
 
-A new Flutter project.
+QuranApp adalah aplikasi al-quran digital, yang dirancang menggunakan dart (Flutter) dengan menggunakan state management GetX. Terdapat beberapa fitur seperti.
+- Offline kecuali juz dan jadwal sholat
+- Bookmark
+- Last read
+- Play audio ayat
+- Search by surah
+- Jadwal sholat sesuai kota
 
-## Getting Started
+### API
+- https://api.quran.gading.dev/
+- https://documenter.getpostman.com/view/841292/Tz5p7yHS
 
-This project is a starting point for a Flutter application.
+### Download QuranApp
 
-A few resources to get you started if this is your first Flutter project:
+https://drive.google.com/file/d/1LrQuhd8MWzQZHg9jr5Cp8jPpRQd_3Ckz/view?usp=sharing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Figma By Tanvir Ahassan
+ ```go
+   https://www.figma.com/community/file/966921639679380402
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![img 1](preview.png)
+
+## Installation Flutter
+
+
+1. Clone the repo
+
+   ```bash
+   git clone https://github.com/jarrfajar/Quran
+   ```
+2. Install packages
+
+   ```dart
+   flutter pub get
+   ```
