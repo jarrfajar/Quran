@@ -1,0 +1,44 @@
+name: quran
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http: ^0.13.5
+  lottie: 2.1.0
+  get_storage: 2.0.3
+  just_audio: 0.9.30
+  sqflite: 2.2.2
+  path_provider: 2.0.11
+  flutter: 
+    sdk: flutter
+  scroll_to_index: ^3.0.1
+  syncfusion_flutter_sliders: ^20.4.42
+  slide_digital_clock: ^1.0.2
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  timeline_tile: ^2.0.0
+  salomon_bottom_bar: ^3.3.1
+  date_picker_timeline: ^1.2.3
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/lotties/
+    - assets/img/
+    - assets/json/
+    - assets/json/surah/
+  fonts:
+   - family: LPMQ IsepMisbah
+     fonts:
+       - asset: assets/fonts/LPMQ IsepMisbah.ttf
+  uses-material-design: true
+
